@@ -29,7 +29,7 @@ then extend you ViewSet class from viewsets.CustomSerializerViewSet
 
 Example::
 
-    from drf_custom_viewsets.viewsets.CustomSerializerViewSet
+    from drf_custom_viewsets.viewsets import CustomSerializerViewSet
     from myapp.serializers import DefaltSerializer, CustomSerializer1, CustomSerializer2
 
     class MyViewSet(CustomSerializerViewSet):
